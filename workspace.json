@@ -1,5 +1,15 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "api": "packages/api",
+    "auth-client": "packages/auth/client",
+    "auth-server-module": "packages/auth/server-module",
+    "client": "packages/client",
+    "common-interfaces": "packages/common/interfaces",
+    "rbac-server-module": "packages/rbac/server-module",
+    "storage": "packages/storage",
+    "users-client": "packages/users/client",
+    "users-server-module": "packages/users/server-module"
+  }
 }

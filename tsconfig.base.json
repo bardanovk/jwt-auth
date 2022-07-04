@@ -14,7 +14,23 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@jwt-auth/auth/client": ["packages/auth/client/src/index.ts"],
+      "@jwt-auth/auth/server-module": [
+        "packages/auth/server-module/src/index.ts"
+      ],
+      "@jwt-auth/common/interfaces": [
+        "packages/common/interfaces/src/index.ts"
+      ],
+      "@jwt-auth/rbac/server-module": [
+        "packages/rbac/server-module/src/index.ts"
+      ],
+      "@jwt-auth/storage": ["packages/storage/src/index.ts"],
+      "@jwt-auth/users/client": ["packages/users/client/src/index.ts"],
+      "@jwt-auth/users/server-module": [
+        "packages/users/server-module/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
